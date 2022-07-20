@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>ExamShield</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
+
+<!-- Fontawesome -->
+<link type="text/css" rel="stylesheet" href="{{ url_for('static', filename='vendor/@fortawesome/fontawesome-free/css/all.min.css') }}">
+
+<!-- Pixel CSS -->
+<link type="text/css" rel="stylesheet" href="{{ url_for('static', filename='css/pixel.css') }}">
+
+<!-- Snackbar CSS -->
+<link type="text/css" rel="stylesheet" href="{{ url_for('static', filename='mysnackbarcss.css') }}">
+
+<script src="{{ url_for('static', filename='volt/vendor/sweetalert2/dist/sweetalert2.all.min.js') }}"></script>
+
+    {% block head %}{% endblock %}
+
+  </head>
+
+  <body>
+
+      <div id="snackbar">Don't try to open new window or any other applications. We are Monitoring you!</div>
+      
+      {% block body %}{% endblock %}
+
+<script async defer src="https://buttons.github.io/buttons.js"></script>
+</body>
+</html>

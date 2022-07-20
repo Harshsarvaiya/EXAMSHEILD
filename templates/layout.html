@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>ExamShield</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
+
+<!-- Fontawesome -->
+<link type="text/css" rel="stylesheet" href="{{ url_for('static', filename='vendor/@fortawesome/fontawesome-free/css/all.min.css') }}">
+
+<!-- Pixel CSS -->
+<link type="text/css" rel="stylesheet" href="{{ url_for('static', filename='css/pixel.css') }}">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+{% block head %}{% endblock %}
+  </head>
+  <body>
+    {% include 'includes/_navbar.html' %}
+    <!--<div class="container">-->
+      {% include 'includes/_messages.html' %}
+      {% block body %}{% endblock %}
+    <!--</div>-->
+
+<!-- Place this tag in your head or just before your close body tag. -->
+<script async defer src="https://buttons.github.io/buttons.js"></script>
+
+<!-- pixel JS -->
+<script src="{{ url_for('static', filename='assets/js/pixel.js') }}"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,87 @@
+{% extends 'layout.html' %}
+{% block body %}
+<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+<html>
+<head>
+     <div class="container" >
+        <div class="row justify-content-between align-items-center">
+            <div class="col">
+            <div class="card">
+                <div class="row card-body">
+                   <div class="col">
+                     <br><br><br>
+                     
+                    <h1 class="display-2 mb-4">AI Based Smart Online Exam System.</h1>
+                    </div>
+                    <div class="col text-right">
+                        <img src="{{ url_for('static', filename='giphy.gif') }}"/>
+                    </div>
+                                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <section class="content content-bg">
+      <nav id="navbar-main" class="navbar navbar-main navbar-expand-lg navbar-theme-primary bg-white fixed-top"> 
+<div class="container">
+    <a class="navbar-brand" href="/"><span style="font-size:18px;"><center><lottie-player src="https://assets1.lottiefiles.com/packages/lf20_wEt2nn.json" background="transparent" speed="1" style="width: 70px; height: 50px;" loop="" autoplay=""></lottie-player>ExamShield</center></span></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon">   
+        <i class="fas fa-bars" style="color:#1c2540; font-size:28px;"></i>
+    </span>
+    </button>  
+   <div class="collapse navbar-collapse" id="navbarSupportedContent">
+     <ul class="nav navbar-nav ml-auto">
+      
+    <li class="nav-item">
+      <a class="nav-link" id="active6" href="/login"><span class="fas fa-sign-in-alt"> Login</span></a></li>
+    
+      <li class="nav-item">
+        <a class="nav-link" id="active5" href="/register"><span class="fas fa-user-plus"> Register</span></a></li>
+      
+      <li class="nav-item">
+        <a class="nav-link" id="active8" href="/contact"><span class="fas fa-phone-alt"> Contact Us</span></a></li>
+  
+              
+ 
+	  </ul>
+	</div>
+	</div>
+</nav>
+      <div class="row">
+      <div class="col-md-10 offset-md-1 col-lg-8 offset-lg-2">
+
+      </div>
+      </div>
+        <div class="row align-items-center my-large">
+          
+          <nav id="navbar-main" class="navbar navbar-main navbar-expand-lg navbar-theme-primary bg-white fixed-top"> 
+<div class="container">
+    <a class="navbar-brand" href="/"><span style="font-size:18px;"><center><img src="{{ url_for('static', filename='ezgif.com-gif-maker.gif') }}" background="transparent"  speed="1" style="width: 60px; height: 50px;" loop autoplay /><br>ExamShield</center></span></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon">   
+        <i class="fas fa-bars" style="color:#1c2540; font-size:28px;"></i>
+    </span>
+    </button>  
+   <div class="collapse navbar-collapse" id="navbarSupportedContent">
+     <ul class="nav navbar-nav ml-auto">
+      
+    <li class="nav-item">
+      <a class="nav-link" id="active6" href="/login"><span class="fas fa-sign-in-alt"> Login</span></a></li>
+    
+      <li class="nav-item">
+        <a class="nav-link" id="active5" href="/register"><span class="fas fa-user-plus"> Register</span></a></li>
+      
+      <li class="nav-item">
+        <a class="nav-link" id="active8" href="/contact"><span class="fas fa-phone-alt"> Contact Us</span></a></li>
+
+                 
+ 
+	  </ul>
+	</div>
+	</div>
+</nav>
+          </div>
+      </section>
+{% endblock %}

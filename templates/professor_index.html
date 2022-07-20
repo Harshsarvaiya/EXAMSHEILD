@@ -1,0 +1,15 @@
+{% extends 'professor_dashboard.html' %}
+{% block body %}
+<div class="container">
+    <div class="col-12 d-flex align-items-center justify-content-center">
+        <div class="bg-white shadow-soft border rounded border-light p-4 p-lg-5 w-100 fmxw-650">
+            <center><img src="{{ url_for('static', filename='ezgif.com-gif-maker.gif') }}" background="transparent" speed="1" style="width: 230px; height: 200px;" loop autoplay /></center>
+            <div class="text-center text-md-center mb-4 mt-md-0">
+                <h4 class="mb-0 4">Welcome to ExamShield</h4>
+                <br>
+                <h1 class="mb-0 h3">Hi, Professor: {{session.name}}</h1>
+            </div>
+            </div>
+    </div>
+    </div>
+{% endblock %}

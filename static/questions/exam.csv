@@ -1,0 +1,6 @@
+qid,q,a,b,c,d,ans,marks
+1,It uses multiple OS on Single Machine,Hypervisor,Virtualization,Cloud,Management,b,1
+2,It is virtualizing your server infrastructure where you do not have to use any more physical servers for different purposes.,Network Virtualization,Sever Virtualization,Storage Virtualization,Client &Sever Virtualization,b,2
+3,It creates a virtual platform on the host computer on top of which multiple guest operating systems are executed and monitored.,Virtual Machine Manager,Virtual Machine Monitor,Virtual Management Monitor,Virtual Management Manager,b,1
+4,These software systems that run directly on the hosts hardware to control the hardware and to monitor theÿGuest Operating Systems.,Naive Hyper supervisor,Virtual Supervisor,Client Supervisior,Hosted Supervisior,a,1
+5,It reduces carbon footprint and helps to clean up the air we breathe.,Deploying Severs,Energy Consumption,Save Energy,Storage Energy,c,2
